@@ -1,0 +1,81 @@
+site_name: Dark Horse Digital — Engineering Knowledge Base
+site_description: Central technical knowledge base for Dark Horse Digital Solutions Pvt Ltd
+site_url: https://AnushaEllendula.github.io/engineering-kb/
+repo_url: https://github.com/AnushaEllendula/engineering-kb
+repo_name: AnushaEllendula/engineering-kb
+edit_uri: edit/main/docs/
+
+theme:
+  name: material
+  palette:
+    - media: "(prefers-color-scheme: light)"
+      scheme: default
+      primary: indigo
+      accent: indigo
+      toggle:
+        icon: material/brightness-7
+        name: Switch to dark mode
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      primary: indigo
+      accent: indigo
+      toggle:
+        icon: material/brightness-4
+        name: Switch to light mode
+  features:
+    - navigation.instant
+    - navigation.tabs
+    - navigation.top
+    - navigation.footer
+    - navigation.indexes
+    - search.suggest
+    - search.highlight
+    - content.action.edit
+    - content.code.copy
+    - toc.follow
+
+plugins:
+  - search
+  - git-revision-date-localized:
+      enable_creation_date: true
+      fallback_to_build_date: true
+
+markdown_extensions:
+  - admonition
+  - pymdownx.details
+  - pymdownx.superfences
+  - pymdownx.highlight:
+      anchor_linenums: true
+  - pymdownx.tabbed:
+      alternate_style: true
+  - tables
+  - toc:
+      permalink: true
+  - def_list
+  - attr_list
+
+nav:
+  - Home: index.md
+  - Getting Started:
+      - Overview: getting-started/index.md
+      - Local dev setup: getting-started/local-setup.md
+  - Onboarding:
+      - New joiner checklist: onboarding/checklist.md
+  - Architecture:
+      - Overview: architecture/index.md
+      - Architecture Decision Records:
+          - Index: adr/index.md
+          - "ADR-0001: Adopt this knowledge base": adr/0001-adopt-git-based-kb.md
+  - Coding Standards:
+      - Overview: coding-standards/index.md
+  - Runbooks:
+      - Overview: runbooks/index.md
+  - Templates:
+      - Runbook template: doc-templates/runbook-template.md
+      - ADR template: doc-templates/adr-template.md
+      - How-to template: doc-templates/how-to-template.md
+
+extra:
+  social:
+    - icon: fontawesome/brands/github
+      link: https://github.com/AnushaEllendula

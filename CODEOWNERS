@@ -1,0 +1,7 @@
+# Default owners for everything in the repo — replace with real GitHub usernames/teams.
+# See https://docs.github.com/en/repositories/managing-your-repositorys-settings-and-features/customizing-your-repository/about-code-owners
+*                           @AnushaEllendula/docs-maintainers
+
+# Example of narrower ownership once the KB grows:
+# /docs/runbooks/           @AnushaEllendula/sre-team
+# /docs/architecture/       @AnushaEllendula/architecture-council
