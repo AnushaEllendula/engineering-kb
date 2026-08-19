@@ -28,7 +28,7 @@ That means:
 | Debugging a production issue | [Runbooks](runbooks/index.md) |
 | Writing code for review | [Coding standards](coding-standards/index.md) |
 | Documenting something new | [Templates](doc-templates/runbook-template.md) |
-
+| Frequently used Tools List | [Tools](doc-templates/runbook-template.md) |
 ## How this KB is maintained
 
 See [CONTRIBUTING.md](https://github.com/AnushaEllendula/engineering-kb/blob/main/CONTRIBUTING.md)
